@@ -3,8 +3,6 @@ require 'rails_config/options'
 
 require "rails_config/sources/yaml_source"
 
-require 'rails_config/vendor/deep_merge' unless defined?(DeepMerge)
-
 module RailsConfig
   # ensures the setup only gets run once
   @@_ran_once = false
