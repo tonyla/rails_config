@@ -21,6 +21,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency "rspec", "~> 2.0"
   s.add_development_dependency "autotest", ">= 0"
   s.add_development_dependency "growl-glue", ">= 0"
-  s.add_development_dependency "deep_merge, "~> 1.0.0"
+  s.add_development_dependency "deep_merge", "~> 1.0.0"
 end
 
